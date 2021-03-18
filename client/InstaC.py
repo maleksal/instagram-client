@@ -34,7 +34,7 @@ class InstaClient:
 
     def authenticate(self):
         """
-		Handles authentication with instagram, either by cookies or password.
+        Handles authentication with instagram, either by cookies or password.
 		"""
         if cookies_data := handle_cookies(self.__cookie_file):
             for cookie in cookies_data:
