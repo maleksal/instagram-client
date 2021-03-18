@@ -1,13 +1,16 @@
 # Instagram Client
 A simple python client for instagram internal API. using GraphQl endpoints && Python.
 
-![Python 2.7, 3.5](https://img.shields.io/badge/Python-3.8.5-blue)
+![](https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white) 
+![](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 
 
 ## Overview
 Scrapes any instagram profile followers and followings.
 
 ## Install
+> Make sure you have Python3.8
+> 
 **Clone the repo**
 ```
 git clone https://...
