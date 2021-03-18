@@ -18,7 +18,7 @@ class InstaClient:
 		password:		Instagram password
 		cookie_file:	Optional file name 'where to save/retrieve cookies'
 
-	"""
+    """
 
     __BASE_URL = "https://www.instagram.com"
     __DEFAULT_HEADERS = {"User-Agent": "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:86.0) Gecko/20100101 Firefox/86.0"}
@@ -35,7 +35,7 @@ class InstaClient:
     def authenticate(self):
         """
         Handles authentication with instagram, either by cookies or password.
-		"""
+	"""
         if cookies_data := handle_cookies(self.__cookie_file):
             for cookie in cookies_data:
                 self.__session.cookies.set(cookie['name'], cookie['value'])
