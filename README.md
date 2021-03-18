@@ -52,4 +52,11 @@ while followings['data']["user"]["edge_follow"]["page_info"]["has_next_page"]:
 
 ![](response.png)
 
+## App ideas
+- check if user has a specific follower or following a specific username.
+- Monitor any profile new follower or followings.
+- Get common follower/followings between a group of instagram profiles.
+
+##Issues
+If you encounter any problem, please don't hesitate and submit an issue report.
 
