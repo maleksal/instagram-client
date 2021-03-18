@@ -57,6 +57,6 @@ while followings['data']["user"]["edge_follow"]["page_info"]["has_next_page"]:
 - Monitor any profile new follower or followings.
 - Get common follower/followings between a group of instagram profiles.
 
-##Issues
+## Issues
 If you encounter any problem, please don't hesitate and submit an issue report.
 
