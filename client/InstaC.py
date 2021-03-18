@@ -12,11 +12,12 @@ from client.utils.helpers import handle_cookies
 
 class InstaClient:
     """
-	InstaClient - scrapes data using GraphQL endpoints && selenium
-	Attributes:
-		username:		Instagram username
-		password:		Instagram password
-		cookie_file:	Optional file name 'where to save/retrieve cookies'
+    InstaClient - scrapes data using GraphQL endpoints && selenium
+    
+    Attributes:
+	username:	Instagram username
+	password:	Instagram password
+	cookie_file:	Optional file name 'where to save/retrieve cookies'
 
     """
 
